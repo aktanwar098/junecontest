@@ -1,0 +1,40 @@
+*{
+  background-color: black;
+  color: white;
+
+}
+
+.app{
+  margin: 150px 400px;
+}
+
+.form{
+  display: flex;
+  flex-flow: column;
+}
+
+input {
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color:white;
+  background-color: black;
+  outline: none;
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 15px;
+  width: 100px;
+  padding:5px;
+  background-color: white;
+  color: black;
+}
+
+.succes{
+  color: green;
+}
+
+.error{
+  color:red;
+}
